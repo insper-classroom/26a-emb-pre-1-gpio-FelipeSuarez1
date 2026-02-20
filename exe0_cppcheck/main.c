@@ -12,11 +12,12 @@ int main(void) {
     int a = 5;
     int b = 5;
     int result = multiplyNumbers(a, b);
-
+    printf("%d", result);
     int arr[NUM_ELEMENTS];
-    for(int i = 0; i < NUM_ELEMENTS - 1; i++) { //arrayIndexOutOfBounds
+    for(int i = 0; i < NUM_ELEMENTS; i++) { //arrayIndexOutOfBounds
         arr[i] = i;
     }
+    printf("%d", arr);
 
     return 0;
 }
