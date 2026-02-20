@@ -15,5 +15,7 @@ void main(void) {
         if (a > 5) {
             b = 1;
         }
+        printf("%d", b);
+        printf("%d", a);
     }
 }
