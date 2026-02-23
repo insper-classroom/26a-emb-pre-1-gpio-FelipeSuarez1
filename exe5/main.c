@@ -22,10 +22,12 @@ int main() {
 
         if (!gpio_get(BTN_PIN)) {
             printf("Botao 1: %d\n", cnt_1++);
+            sleep_ms(200); // Perguntar do pq so do delay para funcionar
         }
 
         if (!gpio_get(BTN_PIN_2)) {
             printf("Botao 2: %d\n", cnt_2++);
+            sleep_ms(200); // Perguntar do pq so do delay para funcionar
         }
     }
 }
